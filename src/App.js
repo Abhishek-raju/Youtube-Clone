@@ -18,7 +18,7 @@ const App = () => {
     return (
        <AppContext>
         <BrowserRouter>
-          <div className="flex flex-col h-full">
+          <div className="flex flex-col">
             <Header />
             <Routes>
               <Route path="/" element={<Feed />}/>
